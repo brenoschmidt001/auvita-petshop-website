@@ -1,0 +1,135 @@
+/* Identidade AuVita: creme, verde-água, verde-petróleo e oliva. */
+:root{--cream:#F1EFE6;--aqua:#60CCC0;--teal:#198889;--olive:#89832a;--ink:#163f40;--dark:#126568;--muted:#526a66;--gold:var(--olive);--gold2:#e4dfb1;--green:var(--aqua);--line:#d5e1d8;--shadow:0 16px 42px #164f4812}
+body{background:var(--cream);color:var(--ink)}
+.container{max-width:1240px}.section{padding:82px 0}h1,h2,h3{letter-spacing:-.045em}h2{font-size:clamp(1.9rem,3.3vw,3rem);line-height:1.17}p{line-height:1.7}
+.nav{background:#f1efe6f5;border-bottom:1px solid #19888926}.nav-inner{height:86px;gap:18px}.new-brand{color:var(--teal);font-size:1.45rem;white-space:nowrap;letter-spacing:-.065em}.links{gap:14px;font-size:.75rem}.links a:hover{color:var(--teal)}.nav-cta{font-size:.69rem;white-space:nowrap;padding:13px 15px;border-radius:50px}.menu{border-color:var(--teal);color:var(--teal)}.mobile-whatsapp{display:none}
+.btn{border-radius:50px;padding:14px 23px;font-size:.88rem;min-height:48px}.btn-dark{background:var(--teal);color:white}.btn-green{background:var(--aqua);color:#123f3b}.btn-instagram{background:transparent;border:1px solid var(--teal);color:var(--teal)}.btn:hover{transform:translateY(-2px)}a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--olive);outline-offset:4px}.eyebrow,.hero .eyebrow{color:#706a20;font-size:.73rem;letter-spacing:.14em}
+.hero{position:relative;background:var(--cream);border-bottom:1px solid #19888925}.hero-grid{min-height:660px;grid-template-columns:1.06fr .94fr;gap:70px;padding-top:55px;padding-bottom:70px}.hero h1{font-size:clamp(2.6rem,4.4vw,4.5rem);line-height:1.08;color:var(--teal);max-width:660px}.hero p{font-size:1.05rem;color:var(--muted);max-width:510px}.hero-actions{gap:12px;align-items:center}.hero-whatsapp{flex-basis:100%;color:var(--teal);font-size:.87rem;font-weight:700;margin-top:5px;text-decoration:underline;text-underline-offset:5px}.hero-art{padding:0 12px 12px;isolation:isolate}.hero-art:before{content:'';position:absolute;inset:20% -4% -1% 4%;background:var(--aqua);border-radius:48% 45% 25% 30%;transform:rotate(5deg);z-index:-1}.hero-image{height:510px;border-radius:46% 46% 28px 28px;border:7px solid #fffdf5;box-shadow:var(--shadow);max-width:none}.hero-image img{object-position:center 54%}.photo-caption{position:relative;background:var(--teal);color:white;display:flex;align-items:center;gap:12px;border-radius:50px;padding:15px 23px;font-size:.8rem;margin:-25px auto 0;width:90%;box-shadow:var(--shadow)}.paw{display:grid;place-items:center;width:30px;height:30px;background:var(--aqua);color:var(--ink);border-radius:50%;flex-shrink:0}.hero-badges{gap:9px 18px;margin-top:26px;color:var(--teal)}.hero-badges span{font-size:.77rem}.hero-badges span:before{content:'•';display:inline;margin-right:7px;border:0;color:var(--olive)}
+#sobre{background:var(--aqua)}#sobre .about{gap:70px}#sobre .about-image{height:440px;border-radius:26px 100px 26px 26px;border:6px solid #ffffff6b}#sobre h2{max-width:440px}#sobre p{color:#164f4d}#sobre .tick{display:inline-block;margin:0 6px 8px 0;font-size:.76rem;background:#ffffff7d;border-radius:50px;padding:8px 12px}#sobre .eyebrow{color:#174f48}
+#estrutura{background:var(--teal);color:white}#estrutura .section-head{max-width:700px}#estrutura .eyebrow{color:#e4dfb1}#estrutura .section-head p,#estrutura .spaces-top{color:#e5f7ee}#estrutura .spaces-card{border:0;border-radius:26px;color:var(--ink);background:var(--cream)}#estrutura .spaces-card img{height:310px}#estrutura .spaces-info{padding:24px}#estrutura .spaces-info p{font-size:.9rem;color:var(--muted)}#estrutura .spaces-card:first-child img{object-position:center 40%}
+#catalogo{background:var(--cream)}#catalogo .catalog-product{border:1px solid #19888933;border-radius:24px;padding:22px;overflow:hidden;min-height:590px;box-shadow:none}#catalogo .catalog-product h3{font-size:1.2rem;color:var(--teal)}#catalogo .service-photo{width:calc(100% + 44px);max-width:none;height:205px;object-fit:cover;display:block;margin:-22px -22px 23px}#catalogo .catalog-product.featured{border:2px solid var(--teal)}.catalog-featured{background:var(--cream);color:#706a20;font-size:.65rem}#catalogo .catalog-product .service-whatsapp-btn{background:var(--teal);color:white;border-radius:50px;font-size:.8rem}#catalogo .catalog-product .service-whatsapp-btn:hover{background:var(--dark)}#catalogo .catalog-product p,#catalogo .catalog-product ul{color:var(--muted)}.service-slider-top,.reviews-carousel-controls{color:var(--muted)}
+#produtos{background:#e0eee4}#produtos .section-head{max-width:750px}.product-item{box-shadow:none;border-color:#19888922;border-radius:23px}.product-item img{background:#fff}.product-body a{background:var(--aqua);color:#174840;border-radius:50px}.product-body p,.product-note{color:var(--muted)}
+#agendamento{background:var(--cream)}.booking-form{background:#fffdf7;border:1px solid #19888940;border-radius:28px;padding:30px;box-shadow:var(--shadow)}.booking-copy h2{max-width:400px}.booking-fields input,.booking-fields select,.booking-fields textarea{border-color:#bccfc4;background:#fff}.booking-form .btn{background:var(--teal);color:white}
+#avaliacoes{background:var(--aqua)}.review-premium{background:var(--cream);border:0;box-shadow:none;border-radius:25px}.review-premium>p{color:var(--ink)}.review-premium .stars{color:#746c19}.review-avatar{background:#d7ebe1;color:var(--teal)}.review-quote{color:var(--teal)}.review-foot{border-color:#d2dbcf;color:var(--muted)}
+#localizacao{background:var(--cream)}#localizacao h2{max-width:480px}.map{height:365px;border-radius:28px;border:5px solid #fff}#faq{background:#e0eee4}.faq summary:after{color:var(--teal)}.faq details{border-color:#19888938;padding:21px 3px}.faq summary{line-height:1.5}.cta{background:var(--aqua);border-radius:30px;flex-wrap:wrap;gap:20px;padding:42px}.cta>div{flex:1 1 600px}.cta .eyebrow{color:#174f48}.cta h2{font-size:clamp(1.8rem,3vw,2.7rem)}
+.footer{background:var(--teal);padding:50px 0 25px}.footer p,.footer a,.footer-bottom{color:#ecf6ee}.footer .new-brand{color:#fff}.footer-bottom{border-color:#ffffff40}.whatsapp-float{background:var(--teal);color:white;border:2px solid var(--cream);padding:0 20px;font-size:.8rem;box-shadow:0 6px 24px #124f4226}
+@media(min-width:1181px){.menu{display:none}.links{display:flex}.nav-cta{display:inline-flex}.links .mobile-whatsapp{display:none}}
+@media(max-width:1180px){.menu{display:block}.nav-cta{display:none}.nav-inner{height:76px}.links{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:stretch;gap:0;padding:15px 24px;background:var(--cream);max-height:calc(100dvh - 76px);overflow-y:auto;box-shadow:0 20px 30px #164f4822}.links.open{display:flex}.links a{padding:14px 8px;border-bottom:1px solid #19888926;font-size:.95rem}.links .mobile-whatsapp{display:block;color:var(--teal);font-weight:800}.hero-grid{gap:35px}.hero h1{font-size:clamp(2.5rem,4.5vw,4rem)}}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr 1fr;gap:30px}.hero-image{height:440px}.hero-actions .btn{flex:1 1 150px}.hero h1{font-size:2.7rem}.about{gap:35px}.section{padding:64px 0}}
+@media(max-width:700px){.container{padding-inline:20px}.nav-inner{height:72px}.new-brand{font-size:1.35rem}.hero-grid{grid-template-columns:1fr;padding-top:35px;padding-bottom:45px;gap:30px}.hero h1{font-size:clamp(2.4rem,9.5vw,3.5rem);max-width:550px}.hero p{font-size:.97rem}.hero-art{width:100%;max-width:440px;margin:0 auto}.hero-image{height:430px;max-width:none;border-radius:45% 45% 24px 24px}.hero-actions{flex-direction:row;align-items:stretch}.hero-actions .btn{width:auto;flex:1 1 140px;padding:13px 15px}.hero-whatsapp{text-align:center;margin-top:7px}.hero-badges{gap:8px 12px}.photo-caption{width:96%;font-size:.76rem;padding:12px 16px}.section{padding:52px 0}#sobre .about{grid-template-columns:1fr;gap:30px}#sobre .about-image{height:340px}#sobre h2{max-width:none}#estrutura .spaces-card img{height:300px}.booking-form{padding:23px}.booking-layout{grid-template-columns:1fr}.product-heading{align-items:flex-end;gap:10px}.product-arrows{padding-bottom:20px}.product-arrow{height:38px;width:38px}.cta{padding:28px}.cta .btn{margin-top:0;width:100%}.map{height:300px}.footer{padding-bottom:85px}}
+@media(max-width:380px){.hero-image{height:360px}.hero-actions .btn{flex-basis:100%}.new-brand{font-size:1.2rem}.hero-badges{max-width:250px}#catalogo .catalog-product{padding:20px}#catalogo .service-photo{margin:-20px -20px 20px;width:calc(100% + 40px)}}
+@media(prefers-reduced-motion:reduce){.btn:hover{transform:none}.reveal{opacity:1;transform:none}}
+
+.official-logo{width:145px;height:68px;object-fit:contain;display:block}.footer .official-logo{background:white;padding:10px;border-radius:12px;width:170px;height:95px}@media(max-width:700px){.official-logo{width:125px;height:58px}}
+/* Integra o fundo branco da marca ao fundo creme do cabeçalho. */
+.nav .official-logo{mix-blend-mode:multiply}
+
+#catalogo #services-track .catalog-product{min-height:0;padding:22px}#catalogo #services-track .service-photo{height:280px}#catalogo #services-track .product-description{margin:8px 0 0}
+
+#catalogo #services-track .catalog-product{min-height:650px;display:flex;flex-direction:column}#catalogo #services-track .product-description{margin:18px 0 12px}#catalogo #services-track .service-card-divider{margin-top:0}#catalogo #services-track ul{margin-bottom:28px}#catalogo #services-track .service-whatsapp-btn{margin-top:auto}#catalogo #services-track .product-subtitle{margin-bottom:20px}@media(max-width:700px){#catalogo #services-track .catalog-product{min-height:670px}}
+
+/* Cabeçalho azul-petróleo com a marca branca. */
+.nav{background:#198889;border-bottom-color:#ffffff30}
+.nav .official-logo{mix-blend-mode:normal;object-fit:contain}
+.nav .links a{color:white}
+.nav .links a:hover{color:#f1efe6;text-decoration:underline;text-underline-offset:5px}
+.nav .menu{color:white;border-color:#ffffff90}
+.nav .links{background:#198889}
+.nav .links a{border-bottom-color:#ffffff30}
+.nav .links .mobile-whatsapp{color:white}
+.nav .nav-cta{background:#60CCC0;color:#163f40}
+
+/* Marca completa, com o desenho e proporcoes da referencia. */
+.nav .official-logo{width:166px;height:84px;filter:grayscale(1) brightness(.8) contrast(20);mix-blend-mode:screen;object-fit:contain}.nav .nav-inner{min-height:100px}@media(max-width:700px){.nav .official-logo{width:138px;height:70px}.nav .nav-inner{min-height:82px}}
+/* Responsive layout: desktop order preserved on every screen. */
+html{scroll-padding-top:110px}body{min-width:0}main,section,.container{min-width:0;max-width:100%}img{max-width:100%}button,a,input,select,textarea{touch-action:manipulation}input,select,textarea{font-size:16px}
+.nav .nav-inner{height:100px;min-height:100px}.nav .links{top:100%}.hero-actions .btn{flex-grow:0}.hero-actions .hero-whatsapp{flex-basis:100%}.hero-grid>*,.about>*,.booking-layout>*,.location>*,.footer-grid>*{min-width:0}.reveal{opacity:1;transform:none}
+#services-track,#spaces-track,#product-track,#reviews-carousel{max-width:100%;touch-action:pan-x pan-y!important;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity}
+#catalogo #services-track .catalog-product{min-height:0}.catalog-product,.product-item,.spaces-card{overflow-wrap:break-word}.photo-caption{line-height:1.5}
+@media(max-width:1180px){.nav .nav-inner{height:84px;min-height:84px}.nav .links{top:100%;max-height:calc(100dvh - 84px);padding-bottom:24px}.nav .official-logo{height:70px;width:145px}.nav .links a{min-height:46px;display:flex;align-items:center}.nav .links:not(.open){display:none}.nav .links.open{display:flex}.nav .nav-cta{display:none}.nav .menu{display:block;min-height:44px}.hero-grid{gap:35px}html{scroll-padding-top:96px}}
+@media(max-width:900px){.hero-grid{grid-template-columns:minmax(0,1fr);gap:32px;padding-block:38px}.hero h1{max-width:650px;font-size:clamp(2.2rem,6.5vw,3.5rem)}.hero-art{width:min(100%,500px);margin-inline:auto}.hero-image{height:460px;margin:0;width:100%;max-width:none}.about,.location,.booking-layout{grid-template-columns:minmax(0,1fr)}.about-image{max-width:100%}.booking-copy h2{max-width:none}.booking-layout{gap:24px}.footer-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.footer-grid>div:first-child{grid-column:1/-1}}
+@media(max-width:600px){html{scroll-padding-top:88px}.container{padding-inline:18px}.section{padding-block:44px}.nav .nav-inner{height:76px;min-height:76px;gap:16px}.nav .official-logo{width:130px;height:66px}.nav .links{max-height:calc(100dvh - 76px)}.nav .menu{padding:10px 16px;font-size:.88rem}.hero-grid{padding-block:30px 40px;gap:28px}.hero h1{font-size:clamp(2rem,8.4vw,3rem);line-height:1.12;margin:15px 0 18px}.hero p{font-size:1rem;line-height:1.65}.hero .eyebrow{font-size:.66rem;line-height:1.7}.hero-actions{display:flex;flex-direction:column;gap:12px;align-items:stretch;margin:24px 0}.hero-actions .btn{flex:0 0 auto;width:100%;min-height:48px;padding:13px 18px}.hero-actions .hero-whatsapp{flex:0 0 auto;width:100%;min-height:44px;display:flex;align-items:center;justify-content:center;margin:0}.hero-badges{max-width:100%;gap:10px;line-height:1.5;margin-top:20px}.hero-image{height:auto;aspect-ratio:4/5;border-width:5px}.hero-art{padding:0 8px 12px}.hero-art:before{right:0}.photo-caption{width:96%;margin-top:-18px;padding:13px 16px;font-size:.78rem;text-align:center;justify-content:center}.about{gap:26px!important}#sobre .about-image{height:auto;aspect-ratio:4/3;border-radius:24px 64px 24px 24px}h2{font-size:clamp(1.65rem,6.7vw,2.2rem);line-height:1.2}.section-head p{font-size:.95rem}.section-head{margin-bottom:24px}#sobre .tick{max-width:100%;line-height:1.5}#estrutura .spaces-card{flex:0 0 88%;}#estrutura .spaces-card img{height:280px}#catalogo .catalog-grid>.catalog-product{flex:0 0 90%;padding:20px!important;min-height:0!important}#catalogo #services-track .service-photo{height:240px;width:calc(100% + 40px);margin:-20px -20px 20px}#catalogo #services-track .service-whatsapp-btn{margin-top:auto;min-height:48px}#catalogo #services-track ul{margin-bottom:22px}.product-item{flex:0 0 86%}.product-heading{display:block}.product-arrows{justify-content:flex-end;padding:0 0 10px}.product-item img{height:240px;aspect-ratio:auto}#reviews-carousel>.review-premium{flex-basis:90%;min-height:0}.reviews-carousel-controls,#catalogo .service-slider-top,#estrutura .spaces-top{font-size:.8rem;line-height:1.5;gap:12px}.reviews-carousel-buttons,.service-slider-controls,.spaces-controls{flex-shrink:0}.booking-form{padding:20px}.booking-fields{grid-template-columns:minmax(0,1fr);gap:16px}.booking-fields label{font-size:.88rem}.booking-fields input,.booking-fields select,.booking-fields textarea{font-size:16px;min-height:46px}.booking-fields .full-field{grid-column:1}.booking-form button{white-space:normal;line-height:1.5}.map{height:290px}.footer-grid{grid-template-columns:minmax(0,1fr)}.footer-grid>div:first-child{grid-column:auto}.cta{padding:25px;display:flex;flex-direction:column;align-items:stretch}.cta>div{flex:0 0 auto}.cta .btn{width:100%;margin:0}.whatsapp-float{height:46px;min-width:0;right:12px;bottom:12px;padding-inline:16px;font-size:.75rem}.footer{padding-bottom:78px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Navegação sempre visível, inclusive no celular. */
+@media(max-width:1180px){
+.nav .nav-inner{height:auto;min-height:0;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;padding-top:8px;padding-bottom:0}
+.nav .nav-inner>a:first-child{max-width:none;justify-self:start}
+.nav .official-logo{width:130px;height:66px}
+.nav .menu{display:none!important}
+.nav .nav-cta{display:inline-flex;grid-column:2;grid-row:1;font-size:.67rem;min-height:42px;max-width:160px;padding:10px 13px}
+.nav .links,.nav .links:not(.open),.nav .links.open{display:flex!important;position:static;grid-column:1/-1;grid-row:2;flex-direction:row;align-items:center;flex-wrap:nowrap;gap:20px;width:100%;max-height:none;overflow-x:auto;overflow-y:hidden;padding:6px 0 12px;box-shadow:none;scrollbar-width:thin;scrollbar-color:#60ccc0 transparent;touch-action:pan-x pan-y;overscroll-behavior-x:contain}
+.nav .links a{flex:0 0 auto;display:inline-flex;white-space:nowrap;border:0;min-height:40px;padding:8px 0;font-size:.8rem}
+.nav .links .mobile-whatsapp{display:none!important}
+html{scroll-padding-top:145px}
+}
+@media(max-width:380px){.nav .official-logo{width:110px;height:60px}.nav .nav-cta{font-size:.6rem;padding:9px 10px;max-width:145px}.nav .links{gap:17px}.nav .links a{font-size:.76rem}}
+
+/* Marca branca com transparencia real; sem mistura com o fundo. */
+.nav .official-logo{filter:none!important;mix-blend-mode:normal!important;background:transparent!important;display:block;object-fit:contain}
+html,body{width:100%;max-width:100%;min-width:0;overflow-x:clip}
+@media(max-width:600px){
+.nav .nav-inner{width:100%;padding-inline:16px;grid-template-columns:minmax(0,1fr) auto;gap:0 10px}
+.nav .official-logo{width:125px;height:64px;max-width:100%}
+.nav .nav-cta{max-width:145px;font-size:.6rem;min-height:40px;white-space:normal}
+.nav .links{min-width:0;max-width:100%;gap:18px;padding-block:4px 10px}
+.nav .links a{font-size:.78rem;line-height:1.4}
+.hero-grid{width:100%;grid-template-columns:minmax(0,1fr)}
+.hero .eyebrow{display:block;white-space:normal;overflow-wrap:anywhere}
+.hero h1{font-size:clamp(1.95rem,8.3vw,2.8rem);max-width:100%;overflow-wrap:break-word}
+.hero p{max-width:100%}.hero-art{max-width:100%}
+}
+
+/* Refinamento de leitura e rolagem nativa, sem prender os gestos. */
+html{scroll-behavior:auto;scroll-padding-top:116px}
+html,body{touch-action:auto;overscroll-behavior-y:auto}
+body{line-height:1.6;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+.section{padding-block:clamp(48px,6vw,80px)}
+.section-head{max-width:760px;margin-bottom:30px}
+.section-head p{max-width:680px;line-height:1.75}
+h1,h2,h3{text-wrap:balance}p{overflow-wrap:break-word}
+.hero p{line-height:1.75}.hero h1{letter-spacing:-.04em}
+#catalogo .catalog-product,.product-item,.review-premium{box-shadow:0 6px 20px #164f4808}
+#catalogo .catalog-product h3{line-height:1.35}
+#catalogo .catalog-product .product-description{line-height:1.75}
+#catalogo .catalog-product ul{line-height:1.85}
+#services-track,#product-track,#reviews-carousel{scroll-behavior:auto!important;scroll-snap-type:x proximity!important;touch-action:pan-x pan-y!important;overscroll-behavior:auto!important;scrollbar-width:none;padding-bottom:16px}
+#services-track::-webkit-scrollbar,#product-track::-webkit-scrollbar,#reviews-carousel::-webkit-scrollbar,.nav .links::-webkit-scrollbar{display:none}
+#services-track>*,#product-track>*,#reviews-carousel>*{scroll-snap-stop:normal}
+.nav .links{scroll-behavior:auto;scrollbar-width:none;scroll-snap-type:none;overscroll-behavior:auto}
+.service-slider-top,.reviews-carousel-controls{margin-bottom:18px!important;color:var(--muted);font-size:.84rem}
+.booking-form{box-shadow:none}.booking-fields label{line-height:1.5}
+.map{display:block}.faq summary{min-height:44px;align-items:center}
+@media(hover:hover){.btn:hover{transform:translateY(-1px)}.card:hover{transform:translateY(-3px)}}
+@media(hover:none){.btn:hover,.card:hover{transform:none;box-shadow:none}}
+@media(max-width:900px){.nav .links{gap:19px}.nav .links a{padding-block:10px}.hero-grid{min-height:0}.about{align-items:start}}
+@media(max-width:600px){
+html{scroll-padding-top:142px}
+.container{padding-inline:18px}.section{padding-block:46px}
+.nav .nav-inner{padding-inline:16px;padding-top:5px}.nav .links{padding-bottom:5px;margin:0;gap:20px}.nav .links a{font-size:.79rem;min-height:42px}.nav .nav-cta{font-size:.62rem}
+.hero-grid{padding-top:28px;padding-bottom:36px}.hero h1{line-height:1.13}.hero p{line-height:1.7;font-size:.96rem}
+.hero-image{max-width:100%;height:auto;aspect-ratio:4/5}.hero-art{min-width:0}.hero-actions{margin-block:22px}.hero-badges{font-size:.75rem;margin-top:18px}
+h2{font-size:clamp(1.65rem,6.8vw,2.2rem)}.section-head p{font-size:.94rem;line-height:1.7}
+#catalogo .catalog-grid{gap:14px}#catalogo .catalog-grid>.catalog-product{flex-basis:91%;padding:20px!important;min-height:0!important}
+#catalogo .catalog-product h3{font-size:1.15rem}#catalogo .catalog-product .product-description,#catalogo .catalog-product ul{font-size:.9rem}
+#catalogo #services-track .service-photo{height:230px;object-fit:cover}.product-item{flex-basis:87%}.product-body{padding:20px}.product-body p{line-height:1.65}
+#reviews-carousel>.review-premium{flex-basis:91%;padding:22px;min-height:0}.review-premium>p{font-size:.94rem;line-height:1.75}
+.booking-fields{grid-template-columns:minmax(0,1fr)}.booking-form{padding:21px 18px}.booking-fields input,.booking-fields select,.booking-fields textarea{font-size:16px;min-height:48px}
+.cta>div{flex:0 0 auto}.footer-grid{gap:24px}.footer-bottom{line-height:1.7}.footer{padding-bottom:84px}
+}
+
+.nav .links{scrollbar-width:none!important;-ms-overflow-style:none}.nav .links::-webkit-scrollbar{width:0!important;height:0!important;display:none!important}
+
+/* Arquivo original em alta qualidade, sem filtros na marca. */
+.nav,.nav .links{background:#418586}.nav .official-logo{filter:none!important;mix-blend-mode:normal!important;width:166px;height:82px;object-fit:contain}@media(max-width:600px){.nav .official-logo{width:140px;height:70px}}
+
+.booking-title{display:grid;grid-template-columns:minmax(0,1fr) 104px;gap:18px;align-items:start}.booking-title h2{margin-top:8px}.booking-brand-symbol{width:104px;height:104px;object-fit:contain;margin-top:10px;mix-blend-mode:multiply}@media(max-width:600px){.booking-title{grid-template-columns:minmax(0,1fr) 72px;gap:12px}.booking-brand-symbol{width:72px;height:72px}}
+
+/* Fundo igual a cor exibida pela imagem com seu perfil de cor. */
+.nav,.nav .links{background:#1d8787!important}
+
+/* Mais destaque para as cinco chamadas de seção. */
+#catalogo .eyebrow,#produtos .eyebrow,#agendamento .eyebrow,#avaliacoes .eyebrow,#localizacao .eyebrow{
+font-size:clamp(.95rem,1.25vw,1.08rem);font-weight:800;letter-spacing:.12em;line-height:1.6;margin-bottom:16px;white-space:normal;overflow-wrap:break-word
+}
+@media(max-width:600px){#catalogo .eyebrow,#produtos .eyebrow,#agendamento .eyebrow,#avaliacoes .eyebrow,#localizacao .eyebrow{font-size:.94rem;letter-spacing:.09em;margin-bottom:14px}}
