@@ -28,7 +28,10 @@ Abra http://localhost:8000 no navegador. O painel pode ser visualizado em http:/
 
 ## Demonstração
 
-Adicione uma captura de tela da página inicial após executar localmente.
+Página inicial do site desenvolvido para a Au Vita Pet Shop.
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a3d52494-5d6d-49bb-a584-d2fe944973f5" />
+
 
 ## Segurança e licença
 
